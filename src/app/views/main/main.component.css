@@ -1,0 +1,23 @@
+.garamond{
+  font-family: 'Garamond', serif;
+}
+
+.title{
+  font-size: 2em;
+  font-weight: bold;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+.subtitle{
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+.palatino{
+  font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+}
