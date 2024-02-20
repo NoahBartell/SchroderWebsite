@@ -1,4 +1,36 @@
-<div>
-<h1 class="palatino title">Schroeder</h1>
-<h2 class="garamond subtitle">Sibling Service</h2>
+<div class="" style="padding: 3rem">
+  <span style="display: flex; ">
+
+  <img src="../assets/SSSBlackCC.jpg" class="picture-size logo-pos">
+    </span>
+
+  <p-tabView>
+    <p-tabPanel header="Home">
+      <p class="palatino">{{homeString}}</p>
+    </p-tabPanel>
+    <p-tabPanel header="Services">
+      <p class="open-sans">{{serviceString}}</p>
+    </p-tabPanel>
+    <p-tabPanel header="Contact">
+      <p class="roboto">{{contactString}}</p>
+      <div>
+        <span>Phone Number: <a href="tel:+{{phoneNumber}}">{{phoneNumber}}</a></span></div>
+        <span>Email: <a href="mailto:{{email}}">{{email}}</a></span>
+
+    </p-tabPanel>
+    <p-tabPanel header="About">
+      <span *ngIf="!IsDesktop" class="garamond">
+        <p-card [style]="{'box-shadow': '6px 6px 12px -4px rgba(0,0,0,0.75);'}" header="About Us">
+        <p class="garamond">{{aboutString}}</p>
+        </p-card>
+      <img src="../assets/aboutPicture.jpeg" class="" style="border-radius: 1rem; box-shadow: 6px 10px 5px 0px rgba(0,0,0,0.75); width: 100%; margin-top: 2rem">
+      </span>
+      <span *ngIf="IsDesktop" class="garamond" style="display: flex" >
+        <p-card [style]="{'box-shadow': '6px 6px 12px -4px rgba(0,0,0,0.75);', 'margin-right':'1rem','margin-left':'1rem'}" header="About Us">
+        <p class="garamond">{{aboutString}}</p>
+        </p-card>
+      <img src="../assets/aboutPicture.jpeg" class="" style="height: 18rem; margin-left:auto; border-radius: 1rem; box-shadow: 6px 10px 5px 0px rgba(0,0,0,0.75);">
+      </span>
+    </p-tabPanel>
+  </p-tabView>
 </div>

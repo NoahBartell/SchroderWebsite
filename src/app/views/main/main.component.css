@@ -21,3 +21,26 @@
 .palatino{
   font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
 }
+
+.roboto{
+  font-family: 'Roboto', sans-serif;
+}
+
+.fira-sans{
+  font-family: 'Fira Sans', sans-serif;
+}
+
+.open-sans{
+  font-family: "Open Sans", sans-serif;
+}
+
+.picture-size{
+  width: 20rem;
+  height: 20rem;
+}
+
+.logo-pos{
+  margin-top: -7rem;
+  margin-left: auto;
+  margin-right: auto;
+}
