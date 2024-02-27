@@ -51,6 +51,6 @@ export class MainComponent {
     "Id aliquam modi est voluptatem galisum ut culpa nihil! Aut dolores voluptate sed numquam eligendi eos distinctio laborum est molestiae aliquid a voluptas cupiditate? Eum omnis doloribus non voluptas placeat sit consequuntur quidem et numquam odit aut dolorum dolore eos voluptate dolorem. Ea provident voluptas sit eius voluptatem ea pariatur quia aut amet perferendis aut minus maiores ut reiciendis fugit hic doloremque commodi.\n" +
     "\n" +
     "Est accusantium facere ea magnam suscipit vel voluptates quia est neque blanditiis a voluptate dolores cum ipsum iure. Et ratione esse aut consequuntur corporis et perferendis autem qui reiciendis dolores.\n"
-  phoneNumber: string = "555-555-5555";
+  phoneNumber: string = "763-447-1620";
   email: string = "schroedersiblingservices@gmail.com";
 }
